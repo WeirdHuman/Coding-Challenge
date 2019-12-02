@@ -31,9 +31,7 @@ function twoSums(nums){
              map.set(nums[i],i)
              map.set(nums[x],x)
             }
-         //Map.get is used to return specified element from the array object.
-         return [map.get(completeTarget),i]
-         return [map.get(completeTarget),x]
+            return(i,x);   
         }
     }
 }
